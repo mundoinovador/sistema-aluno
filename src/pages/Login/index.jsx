@@ -27,7 +27,7 @@ function Login() {
   }
 
   return (
-    <div className="home">
+    <div className="login">
       <div className="banner-login-container">
         <h2>SchoolTech</h2>
 
@@ -43,6 +43,7 @@ function Login() {
             placeholder="Digite seu email"
             value={emailText}
             onChange={(e) => setEmailText(e.target.value)}
+            autoFocus
           />
           <input
             required

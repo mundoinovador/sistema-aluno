@@ -1,0 +1,55 @@
+.home {
+  width: 100vw;
+  min-height: 100vh;
+
+  .desc-home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block: 5rem;
+    align-items: center;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 650px;
+      text-align: center;
+      line-height: 2rem;
+      color: rgb(67, 67, 67);
+    }
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    input {
+      border: none;
+      outline: none;
+      padding: 1.5rem 2.5rem;
+    }
+
+    input[type="submit"] {
+      background-color: rgb(9, 21, 42);
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    input[type="text"] {
+      border: 1px solid gray;
+      min-width: 600px;
+      font-size: 1.2rem;
+    }
+  }
+
+  .cursos-container {
+    display: flex;
+    gap: 2rem;
+    padding: 6rem 5rem;
+    flex-wrap: wrap;
+  }
+}

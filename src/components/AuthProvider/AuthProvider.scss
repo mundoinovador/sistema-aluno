@@ -1,0 +1,13 @@
+.auth-provider-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(2, 2, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: white;
+    font-size: 2rem;
+  }
+}

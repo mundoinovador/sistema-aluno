@@ -30,7 +30,7 @@ function Register() {
   }
 
   return (
-    <div className="home">
+    <div className="register">
       <div className="banner-register-container">
         <h2>SchoolTech</h2>
 
@@ -48,6 +48,7 @@ function Register() {
             onChange={(e) => {
               setNameRegister(e.target.value);
             }}
+            autoFocus
           />
 
           <input

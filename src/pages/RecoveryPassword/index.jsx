@@ -36,6 +36,7 @@ function RecoveryPassword() {
             placeholder="Digite seu email"
             value={emailReset}
             onChange={(e) => setEmailReset(e.target.value)}
+            autoFocus
           />
 
           <input

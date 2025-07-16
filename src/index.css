@@ -3,8 +3,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  cursor: default;
 }
 
 html {
   overflow-x: hidden;
+}
+
+button,
+a,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  cursor: text;
 }
